@@ -28,7 +28,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/projects/Afnan_Cheranthodika_Resume.pdf"
             target="_blank"
             className="hover:text-white transition"
           >
