@@ -47,9 +47,10 @@ export default function Hero() {
             <Image
               src="/projects/profile.jpg"
               alt="Afnan Cheranthodika"
-              fill
-              priority
-              className="object-cover"
+              width={100}
+              height={100}
+              property="true"
+              className="object-cover h-full w-full rounded-full"
             />
           </div>
         </motion.div>
