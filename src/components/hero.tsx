@@ -1,57 +1,103 @@
+
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
+const skills = [
+  "Next.js",
+  "TypeScript",
+  "React",
+  "Node.js",
+  "MongoDB",
+  "Tailwind CSS",
+];
+
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6 py-24">
       {/* Background Glow */}
-      <div className="absolute inset-0">
-        <div className="absolute top-40 left-1/2 -translate-x-1/2 h-87.5 w-87.5 rounded-full bg-violet-600/20 blur-[120px]" />
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 h-[400px] w-[400px] sm:h-[500px] sm:w-[500px] rounded-full bg-violet-600/20 blur-[120px]" />
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto text-center">
+        {/* Profile Image */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            y: [0, -8, 0],
+          }}
+          transition={{
+            opacity: { duration: 0.6 },
+            scale: { duration: 0.6 },
+            y: {
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            },
+          }}
+          className="relative mx-auto mb-8"
+        >
+          <div className="absolute inset-0 rounded-full bg-violet-600/30 blur-3xl scale-125" />
+
+          <div className="relative mx-auto h-32 w-32 sm:h-40 sm:w-40 md:h-52 md:w-52 overflow-hidden rounded-full border border-white/10">
+            <Image
+              src="/profile.jpg"
+              alt="Afnan Cheranthodika"
+              fill
+              priority
+              className="object-cover"
+            />
+          </div>
+        </motion.div>
+
+        {/* Tag */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-violet-400 font-medium mb-4"
+          transition={{ delay: 0.2 }}
+          className="mb-4 text-sm sm:text-base font-medium text-violet-400"
         >
           Full Stack Developer
         </motion.p>
 
+        {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-5xl md:text-7xl font-bold tracking-tight text-white"
+          transition={{ delay: 0.4 }}
+          className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white leading-tight"
         >
-          AFNAN
+          Afnan
           <br />
-          CHERANTHODIKA
+          Cheranthodika
         </motion.h1>
 
+        {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9 }}
-          className="mt-6 text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto"
+          transition={{ delay: 0.6 }}
+          className="mt-5 max-w-2xl mx-auto px-2 text-sm sm:text-base md:text-lg text-zinc-400 leading-7"
         >
-          I build modern web applications using MERN Stack, Next.js and
-          TypeScript with a focus on performance, scalability and user
-          experience.
+          Building scalable SaaS applications and modern web experiences
+          using Next.js, TypeScript, MongoDB and the MERN Stack.
         </motion.p>
 
+        {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.1 }}
-          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+          transition={{ delay: 0.8 }}
+          className="mt-8 flex flex-col sm:flex-row justify-center gap-4"
         >
           <a
             href="#projects"
-            className="px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition text-white font-medium flex items-center gap-2"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition text-white font-medium inline-flex items-center justify-center gap-2"
           >
             View Projects
             <ArrowRight size={18} />
@@ -59,29 +105,23 @@ export default function Hero() {
 
           <a
             href="#contact"
-            className="px-6 py-3 rounded-xl border border-zinc-700 hover:border-zinc-500 transition text-white"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl border border-white/10 hover:border-white/30 transition text-white text-center"
           >
             Contact Me
           </a>
         </motion.div>
 
+        {/* Skills */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.3 }}
-          className="mt-14 flex flex-wrap justify-center gap-3"
+          transition={{ delay: 1 }}
+          className="mt-10 flex flex-wrap justify-center gap-2 sm:gap-3 px-2"
         >
-          {[
-            "Next.js",
-            "TypeScript",
-            "React",
-            "Node.js",
-            "MongoDB",
-            "Tailwind CSS",
-          ].map((skill) => (
+          {skills.map((skill) => (
             <span
               key={skill}
-              className="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-zinc-300 text-sm"
+              className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs sm:text-sm text-zinc-300"
             >
               {skill}
             </span>
@@ -91,8 +131,6 @@ export default function Hero() {
     </section>
   );
 }
-
-
 
 
 
