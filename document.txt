@@ -1,0 +1,624 @@
+You are a world-class creative director, premium UI/UX designer, motion designer, and senior frontend engineer.
+
+I am building my own unique website design identity called **AFNAN PREMIUM DIGITAL**.
+
+The goal is NOT to create a generic template.
+
+The goal is to create a recognizable visual identity that feels like it belongs to the same premium design studio, even when the business category changes.
+
+---
+
+# CORE DESIGN IDENTITY
+
+Create a premium, cinematic, editorial-style website with:
+
+* Luxury visual language
+* Minimal but powerful layouts
+* Large typography
+* Strong whitespace
+* High-quality photography
+* Smooth cinematic transitions
+* Elegant micro-interactions
+* Premium hover effects
+* Scroll-based animations
+* Subtle parallax
+* Editorial composition
+* Strong visual hierarchy
+* Sophisticated typography
+* Modern asymmetric layouts
+* Dark + off-white visual system
+* High-end brand feeling
+* Mobile-first responsive design
+
+The website should feel like:
+
+**Luxury brand + modern editorial magazine + high-end creative agency + premium product experience.**
+
+Avoid the feeling of:
+
+* Cheap template
+* Generic SaaS
+* Basic business website
+* Over-designed dashboard
+* Typical WordPress website
+* Generic AI-generated landing page
+* Excessive gradients
+* Excessive glassmorphism
+* Excessive rounded cards
+* Random animations
+
+The design must feel intentional, expensive and highly curated.
+
+---
+
+# SIGNATURE VISUAL LANGUAGE
+
+Use this design DNA consistently across every project.
+
+### Typography
+
+Use a strong modern sans-serif for headings.
+
+Headings should be:
+
+* Large
+* Bold
+* Tight letter spacing
+* Editorial
+* Confident
+
+Use an elegant serif/italic style selectively for emphasis.
+
+Example:
+
+"Built for"
+"people who"
+**"choose different."**
+
+Do not overuse serif typography.
+
+---
+
+# COLOR SYSTEM
+
+Primary background:
+
+Warm off-white / ivory
+
+Secondary:
+
+Near-black / charcoal
+
+Text:
+
+Deep black
+
+Muted text:
+
+Warm gray
+
+Accent:
+
+Use ONLY one subtle accent color when appropriate for the business brand.
+
+Never create rainbow-colored UI.
+
+The overall design should remain sophisticated.
+
+---
+
+# LAYOUT SYSTEM
+
+Do NOT make every section look like a standard centered card grid.
+
+Use:
+
+* Full-screen hero sections
+* Large editorial typography
+* Asymmetric grids
+* Large image compositions
+* Split layouts
+* Horizontal scrolling sections
+* Full-width visual sections
+* Overlapping elements
+* Numbered sections
+* Thin borders
+* Small uppercase labels
+* Large whitespace
+
+Use sections that feel visually connected.
+
+The entire page should feel like one continuous experience rather than separate blocks.
+
+---
+
+# ANIMATION SYSTEM
+
+Animation is an important part of the AFNAN identity.
+
+Use Framer Motion or an equivalent modern animation library.
+
+Animations should be:
+
+* Smooth
+* Cinematic
+* Fast enough to feel responsive
+* Subtle
+* Purposeful
+
+Use:
+
+1. Hero text stagger reveal
+2. Image reveal animation
+3. Scroll reveal
+4. Image scale on hover
+5. Text movement on hover
+6. Button micro-interaction
+7. Navigation transition
+8. Section entrance animation
+9. Subtle parallax
+10. Horizontal scrolling where appropriate
+11. Page transition where useful
+
+Do NOT animate everything.
+
+Animation should communicate quality, not distract the user.
+
+---
+
+# HERO IDENTITY
+
+The hero must immediately communicate:
+
+1. What the business sells
+2. Why it is different
+3. A strong visual identity
+4. A clear CTA
+
+Use cinematic photography.
+
+Hero structure can include:
+
+Small label
+
+MAIN MASSIVE HEADLINE
+
+Short description
+
+Primary CTA
+
+Secondary CTA
+
+Large visual/product image
+
+Small supporting statistics or information
+
+The hero should feel like a premium campaign.
+
+---
+
+# IMAGE DIRECTION
+
+Photography is extremely important.
+
+Use large, high-quality images.
+
+Images should feel:
+
+* Professional
+* Cinematic
+* Editorial
+* Premium
+* Realistic
+* Brand-focused
+
+Do not use random stock-image layouts.
+
+When possible, use full-bleed photography.
+
+Images should become part of the layout itself.
+
+---
+
+# NAVIGATION
+
+Create a minimal premium navigation.
+
+Left:
+
+Brand/logo
+
+Center:
+
+Navigation links
+
+Right:
+
+Primary CTA
+
+Navigation should remain visually clean.
+
+On mobile:
+
+Use a premium animated menu.
+
+---
+
+# COMPONENT DESIGN
+
+Buttons:
+
+Minimal pill or refined rectangular buttons.
+
+Cards:
+
+Avoid excessive rounded corners.
+
+Use subtle borders, image-led layouts and editorial cards.
+
+Icons:
+
+Use minimal line icons.
+
+Borders:
+
+Use thin, subtle borders.
+
+Spacing:
+
+Generous.
+
+---
+
+# BUSINESS CATEGORY ADAPTATION
+
+The design identity must remain the same while the business content changes.
+
+The following categories are the main target:
+
+## CATEGORY 1 — AUTOMOTIVE
+
+Vehicle Dealers
+
+Used Car Dealers
+
+Bike Dealers
+
+Vehicle Workshops
+
+Car Detailing
+
+Car Washing
+
+Auto Accessories
+
+Hero direction:
+
+Cinematic vehicle photography.
+
+Sections:
+
+* Featured vehicles
+* Latest arrivals
+* Vehicle categories
+* Why choose us
+* Services
+* Workshop
+* Customer testimonials
+* Financing
+* Location
+* WhatsApp enquiry
+
+CTA examples:
+
+"Explore Collection"
+
+"Book a Test Drive"
+
+"Get a Quote"
+
+"WhatsApp Us"
+
+---
+
+# CATEGORY 2 — FASHION / DRESS STORE
+
+Men's fashion
+
+Women's fashion
+
+Streetwear
+
+Boutique
+
+Traditional clothing
+
+Premium fashion store
+
+Hero direction:
+
+Editorial fashion photography.
+
+Sections:
+
+* New arrivals
+* Featured collection
+* Categories
+* Best sellers
+* Lookbook
+* Brand story
+* Product showcase
+* Customer reviews
+* Instagram-style gallery
+
+CTA examples:
+
+"Shop Collection"
+
+"Explore New Arrivals"
+
+"View Lookbook"
+
+---
+
+# CATEGORY 3 — MOBILE / ELECTRONICS
+
+Mobile shops
+
+Smartphones
+
+Accessories
+
+Consumer electronics
+
+Gadget stores
+
+Hero direction:
+
+Premium product photography.
+
+Sections:
+
+* Featured devices
+* Latest arrivals
+* Smartphones
+* Accessories
+* Best deals
+* Product comparison
+* Store benefits
+* Warranty/service
+* Location
+* WhatsApp enquiry
+
+CTA examples:
+
+"Explore Devices"
+
+"View Latest Phones"
+
+"Get Price"
+
+"Visit Store"
+
+---
+
+# E-COMMERCE MINI STORE MODE
+
+When the project requires ecommerce functionality, maintain the same visual identity.
+
+Create:
+
+* Product grid
+* Product detail page
+* Category filtering
+* Search
+* Cart
+* Wishlist
+* Checkout
+* Order CTA
+
+The ecommerce interface must still look editorial and premium.
+
+Do NOT turn the website into a generic ecommerce dashboard.
+
+---
+
+# WEBSITE STRUCTURE
+
+Build reusable components.
+
+Example:
+
+/components
+
+Navbar
+Hero
+SectionHeading
+AnimatedText
+ProductCard
+VehicleCard
+ServiceCard
+CategoryGrid
+ImageReveal
+Testimonials
+Stats
+CTA
+Footer
+
+Create reusable design primitives so that the same identity can be reused for different industries.
+
+---
+
+# TECH STACK
+
+Use:
+
+Next.js
+TypeScript
+Tailwind CSS
+Framer Motion
+Lucide Icons
+
+Use clean component architecture.
+
+Use modern Next.js App Router.
+
+Make everything responsive.
+
+Do not introduce unnecessary backend functionality unless specifically requested.
+
+For a first client demo, prioritize:
+
+DESIGN → ANIMATION → RESPONSIVENESS → CONVERSION.
+
+Backend can be added later.
+
+---
+
+# RESPONSIVE DESIGN
+
+Desktop must look premium.
+
+Tablet must preserve the composition.
+
+Mobile must NOT simply stack everything vertically.
+
+Re-design sections intelligently for mobile.
+
+Maintain:
+
+* Typography hierarchy
+* Image impact
+* Spacing
+* Animation
+* CTA visibility
+
+Mobile should feel like a premium mobile experience.
+
+---
+
+# CONVERSION PRINCIPLE
+
+Every website should ultimately help the business get customers.
+
+Therefore strategically include:
+
+* WhatsApp
+* Call
+* Enquiry
+* Booking
+* Shop
+* Location
+* Instagram
+* Contact
+
+depending on the business type.
+
+Do not add CTAs randomly.
+
+---
+
+# BRAND CUSTOMIZATION
+
+The following variables must be easy to change:
+
+BUSINESS_NAME
+BUSINESS_CATEGORY
+TAGLINE
+PRIMARY_COLOR
+ACCENT_COLOR
+LOCATION
+PHONE
+WHATSAPP
+INSTAGRAM
+LOGO
+HERO_IMAGE
+PRODUCT_IMAGES
+PRODUCT_DATA
+SERVICES
+CTA_TEXT
+
+Changing these values should transform the template into a new business website while preserving the AFNAN design identity.
+
+---
+
+# IMPORTANT CREATIVE RULE
+
+Do NOT copy any existing website or brand.
+
+Do NOT imitate Apple, Mercedes, Nike, Porsche or another specific company.
+
+Take inspiration only from the principles of premium editorial design.
+
+The final result must have its own identity.
+
+The website should make someone think:
+
+"Who designed this?"
+
+The answer should be:
+
+**AFNAN.**
+
+---
+
+# FINAL QUALITY TEST
+
+Before completing the website, check:
+
+□ Does it look premium?
+
+□ Does it immediately communicate the business?
+
+□ Does the hero feel cinematic?
+
+□ Is the typography strong?
+
+□ Are the images dominant?
+
+□ Are animations smooth?
+
+□ Are animations purposeful?
+
+□ Does the website feel expensive?
+
+□ Does mobile look equally premium?
+
+□ Can this design be reused for another business?
+
+□ Does the design still feel like the same AFNAN identity?
+
+If the answer to any of these is NO, improve the design before providing the final code.
+
+Build the complete production-quality frontend.
+
+Do not give me a generic template.
+
+Create a website that looks like it came from a **high-end digital design studio with a recognizable visual identity.**
+
+
+
+
+
+
+
+                   AFNAN
+                   │
+          PREMIUM DESIGN DNA
+                   │
+       ┌───────────┼───────────┐
+       │           │           │
+   AUTOMOTIVE    FASHION     MOBILE
+       │           │           │
+    Dealer       Dress       Phone
+    Workshop     Boutique    Accessories
+    Washing      Store       Electronics
+    Accessories  E-com       Gadgets
+       │           │           │
+       └───────────┼───────────┘
+                   │
+             SAME IDENTITY
+
+
+
+  
